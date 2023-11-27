@@ -5,8 +5,19 @@ Easy method for get cookie from header
 - Rust
 - reqwest - https://crates.io/crates/reqwest
 
+### Install
+Run the following Cargo command in your project directory:
+
+
+`cargo add easycookie`
+
+Or add the following line to your Cargo.toml:
+
+`easycookie = "1.0.0"`
+
 ### How to usage ?
 ```rust
+use easycookie;
 use reqwest;
 let example_request = reqwest::get(your_url).await.unwrap();
 let headers = example_request.headers();
