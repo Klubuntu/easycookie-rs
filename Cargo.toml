@@ -1,9 +1,12 @@
 [package]
 name = "easycookie"
-version = "0.1.0"
+version = "1.0.0"
+authors = ["Klubuntu"]
 edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+license = "GPL"
+repository = "https://github.com/Klubuntu/easycookie-rs"
+readme = "readme.md"
+description = "Simple method to get cookie from header for Rust"
 
 [dependencies]
 reqwest = { version = "0.11", features = ["json", "native-tls"]}
