@@ -15,4 +15,12 @@ async fn main() {
     let get_new_cookie = setup_header.get_cookie("random2").await;
     println!("Cookie Value is: {:?}", get_new_cookie.get_value());
 
+
+    // Get cookie by number position, first from 0;
+    let cookie_from_nr = setup_header.get_cookie_num(0).await;
+    println!("Cookie Value from nr is: {:?}", cookie_from_nr.get_value());
+
+    // Get List - all cookie names from site;
+    let cookie_list = setup_header.list_cookies();
+    println!("{:?}", cookie_list);
 }
