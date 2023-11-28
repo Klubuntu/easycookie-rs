@@ -15,7 +15,7 @@ Or add the following line to your Cargo.toml:
 
 `easycookie = "1.0.1"`
 
-### How to usage ?
+### How to use ?
 ```rust
 use easycookie;
 use reqwest;
