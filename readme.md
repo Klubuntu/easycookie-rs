@@ -1,5 +1,13 @@
 # easycookie-rs
-Easy method for get cookie from header
+📌 Easy method for get cookie from header
+
+#### Index
+- [Loading Time](https://github.com/Klubuntu/easycookie-rs/blob/main/readme.md#loading-time)
+- [Install](https://github.com/Klubuntu/easycookie-rs/blob/main/readme.md#install)
+- [How to use ?](https://github.com/Klubuntu/easycookie-rs/blob/main/readme.md#how-to-use-)
+- [Examples](https://github.com/Klubuntu/easycookie-rs/blob/main/readme.md#examples)
+- [More Features](https://github.com/Klubuntu/easycookie-rs/blob/main/readme.md#other-features)
+- [How to support ?](https://github.com/Klubuntu/easycookie-rs/blob/main/readme.md#support-project)
 
 ### Requirements
 - Rust
@@ -15,7 +23,7 @@ Or add the following line to your Cargo.toml:
 
 `easycookie = "1.0.2"`
 
-### Speed Time
+### Loading Time
 ```bash
 Cookie Value from nr is: "data1"
 
@@ -62,6 +70,8 @@ println!("Cookie Value from nr is: {:?}", cookie_from_nr.get_value());
 let cookie_list = setup_header.list_cookies();
 println!("{:?}", cookie_list);
 ```
+
+### Support Project
 
 :star: Thank you for usage
 
