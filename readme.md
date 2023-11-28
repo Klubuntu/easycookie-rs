@@ -15,6 +15,22 @@ Or add the following line to your Cargo.toml:
 
 `easycookie = "1.0.2"`
 
+### Speed Time
+```bash
+Cookie Value from nr is: "data1"
+
+real    0m3.214s
+user    0m1.582s
+sys     0m1.040s
+
+
+Cookie Value is: "data2"
+
+real    0m2.867s
+user    0m1.540s
+sys     0m1.037s
+```
+
 ### How to use ?
 ```rust
 use easycookie;
