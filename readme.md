@@ -13,16 +13,6 @@
 - Rust
 - reqwest - https://crates.io/crates/reqwest
 
-### Install
-Run the following Cargo command in your project directory:
-
-
-`cargo add easycookie`
-
-Or add the following line to your Cargo.toml:
-
-`easycookie = "1.0.2"`
-
 ### Loading Time
 ```bash
 Cookie Value from nr is: "data1"
@@ -38,6 +28,17 @@ real    0m2.867s
 user    0m1.540s
 sys     0m1.037s
 ```
+
+### Install
+Run the following Cargo command in your project directory:
+
+
+`cargo add easycookie`
+
+Or add the following line to your Cargo.toml:
+
+`easycookie = "1.0.2"`
+
 
 ### How to use ?
 ```rust
