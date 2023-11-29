@@ -60,6 +60,15 @@ let setup_header = easycookie::set_header(headers.clone()).await;
 let get_new_cookie = setup_header.get_cookie("cookie_name").await;
 println!("Cookie Value is: {:?}", get_new_cookie.get_value());
 ```
+```rust
+// Get 2 Cookies from One header
+let resp = reqwest::get("http://webtest.5v.pl/cookie/").await.unwrap();
+let header = resp.headers();
+let cookie_header = easycookie::set_header(header.clone()).await;
+let first_cookie = cookie_header.get_cookie("random").await.get_value();
+let second_cookie = cookie_header.get_cookie("random2").await.get_value();
+println!("Cookies 1: {:?}, 2: {:?}", first_cookie, second_cookie);
+```
 
 ### Other Features
 ```rust
