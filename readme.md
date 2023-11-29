@@ -2,12 +2,12 @@
 📌 Easy method for get cookie from header
 
 #### Index
-- [Loading Time](https://github.com/Klubuntu/easycookie-rs/blob/main/readme.md#loading-time)
-- [Install](https://github.com/Klubuntu/easycookie-rs/blob/main/readme.md#install)
-- [How to use ?](https://github.com/Klubuntu/easycookie-rs/blob/main/readme.md#how-to-use-)
-- [Examples](https://github.com/Klubuntu/easycookie-rs/blob/main/readme.md#examples)
-- [More Features](https://github.com/Klubuntu/easycookie-rs/blob/main/readme.md#other-features)
-- [How to support ?](https://github.com/Klubuntu/easycookie-rs/blob/main/readme.md#support-project)
+- [Loading Time](https://github.com/Klubuntu/easycookie-rs/#loading-time)
+- [Install](https://github.com/Klubuntu/easycookie-rs/#install)
+- [How to use ?](https://github.com/Klubuntu/easycookie-rs/#how-to-use-)
+- [Examples](https://github.com/Klubuntu/easycookie-rs/#examples)
+- [More Features](https://github.com/Klubuntu/easycookie-rs/#other-features)
+- [How to support ?](https://github.com/Klubuntu/easycookie-rs/#support-project)
 
 ### Requirements
 - Rust
