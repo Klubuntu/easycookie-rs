@@ -37,7 +37,7 @@ Run the following Cargo command in your project directory:
 
 Or add the following line to your Cargo.toml:
 
-`easycookie = "1.0.2"`
+`easycookie = "1.0.3"`
 
 
 ### How to use ?
