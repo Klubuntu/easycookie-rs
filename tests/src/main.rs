@@ -23,4 +23,12 @@ async fn main() {
     // Get List - all cookie names from site;
     let cookie_list = setup_header.list_cookies();
     println!("{:?}", cookie_list);
+
+    // Get 2 Cookies from One header
+    let resp = reqwest::get("http://webtest.5v.pl/cookie/").await.unwrap();
+    let header = resp.headers();
+    let cookie_header = easycookie::set_header(header.clone()).await;
+    let first_cookie = cookie_header.get_cookie("random").await.get_value();
+    let second_cookie = cookie_header.get_cookie("random2").await.get_value();
+    println!("Cookies 1: {:?}, 2: {:?}", first_cookie, second_cookie);
 }
