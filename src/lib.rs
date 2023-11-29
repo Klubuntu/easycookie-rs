@@ -29,8 +29,8 @@ impl HeaderCookie{
 }
 
 impl CookieValue {
-    pub fn get_value(&self) -> &String {
-        &self.value
+    pub fn get_value(self) -> String {
+        self.value
     }
 }
 
