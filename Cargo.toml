@@ -1,6 +1,6 @@
 [package]
 name = "easycookie"
-version = "1.0.2"
+version = "1.0.3"
 authors = ["Klubuntu"]
 edition = "2021"
 license = "GPL-3.0-only"
